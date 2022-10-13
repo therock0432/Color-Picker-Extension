@@ -1,0 +1,136 @@
+body {
+    background: #f1f5f9;
+
+}
+
+.wrapper{
+    width: 300px;
+    text-align: center;
+}
+
+.changeColorBtn{
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background: lightgreen;
+    cursor: pointer;
+}
+
+
+.colorGrid{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+.selectedColor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+.colorValue{
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+
+.colorValueRGBA{
+    margin-left: 125px;
+    font-weight: bold;
+    
+}
+
+.selectedColorComp{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.colorValueComp{
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+
+.colorValueRGBAComp{
+    margin-left: 125px;
+    font-weight: bold;
+    
+}
+
+
+.colorGridComp{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+
+.selectedPreviousColor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.colorGridPicked1{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.colorGridPicked2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.colorGridPicked3{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.colorGridPicked4{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.colorGridPicked5{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+
+.emptySpan{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #f1f5f9;
+    
+}
+
+.name{
+    background-color: black;
+    color: white;
+    position: inherit;
+    font-weight: bolder;
+}
+
+.footer{
+    text-align: center;
+}
